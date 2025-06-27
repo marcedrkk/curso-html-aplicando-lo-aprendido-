@@ -1,0 +1,51 @@
+.header{
+    height: 10em;
+    padding: 5em;
+    font-size: 2em;
+    /* background-size: cover: es una propiedad CSS que modifica el tamaño de una imagen de fondo para que cubra completamente un elemento: */
+    background-size: cover;
+    /* background-position: center: hace que la posicion de la imagen sea en el centro, osea, que esté centrada. */
+    background-position: center;
+}
+.header h1{
+    margin: 0px;
+    font-weight: 400;
+}
+body{
+    font-style: italic;
+} 
+/* Centramoslaseccióndeproductosdejandounmargende10%acadalado. */
+.products{
+    width: 80%;
+    margin: auto;
+    border-collapse: separate;
+}
+/*  Cada celda de la tabla va a tener un máximo de 50%,
+lo que se calcula respecto al contenedor padre.Como la caja de productos tiene un ancho de 80% en la práctica cada celda tendrá un 50% de ese 80%s.*/
+.products td{
+    width: 50%;
+    padding: 1em;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+/* Especificamos que las imágenes tendrán un ancho del 100%,pero nuevamente esto es respecto al tamaño del contenedor padre.Si la imagen es de distinto tamaño al contenedor donde fue puesta,su tamaño se ajusta. */
+.products img{
+    width: 100%;
+    border: solid 1pc #e2c590;
+}
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+p{
+    font-weight: 600;
+}
+a{
+    color: rgb(255, 255, 255);
+}
